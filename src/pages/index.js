@@ -129,9 +129,9 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Home Page</title>
+      <title>Guru Page</title>
       <h1 style={headingStyles}>
-        Congratulations
+        Congratulations this is my first site
         <br />
         <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
         <span role="img" aria-label="Party popper emojis">
