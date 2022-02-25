@@ -1,12 +1,8 @@
 import * as React from 'react';
+import Layout from '../components/layout';
 const IndexPage=()=>{
-  return <div>
-    <main>
-      <title>My Home Page</title>
-      <h1>Welcome to my Gatsby site</h1>
-      <h2>My name is Guru Raghavendra...</h2>
-      <p>I am learnig from Gats'by site docs...</p>
-    </main>
-  </div>
+  return <Layout pageTitle="Home">
+     <p>I'm making this by following the Gatsby Tutorial.</p>
+  </Layout>
 }
 export default IndexPage
